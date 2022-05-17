@@ -5,7 +5,10 @@ import './navbar.css';
 const NavBar = () => {
   return (
     <div className="menu">
-      <TiChartBarOutline className="logo" />
+      <div className="logo">
+        <TiChartBarOutline className='logo_svg'/>
+        <h3>Ecommerce T</h3>
+      </div>
       <ul className="opcion_menu">
         <li>Home</li>
         <li>Opción 1</li>
@@ -13,7 +16,7 @@ const NavBar = () => {
         <li>Opción 3</li>
         <li>Opción 4</li>
       </ul>
-      <div className="carro" >
+      <div className="carro">
         <TiShoppingCart />
         <p>0</p>
       </div>
