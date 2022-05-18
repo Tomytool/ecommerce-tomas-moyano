@@ -59,7 +59,7 @@
 }
 .opcion_menu li:hover {
   cursor: pointer;
-  background-color: rgb(41, 126, 126);
+  background-color: rgb(35, 104, 104);
   color: white;
   border-radius: 20px;
 }
