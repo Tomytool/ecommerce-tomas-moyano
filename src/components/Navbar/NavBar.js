@@ -1,5 +1,6 @@
 import React from 'react';
-import { TiChartBarOutline, TiShoppingCart } from 'react-icons/ti';
+import { TiChartBarOutline,  } from 'react-icons/ti';
+import CartWidget from '../Carwidget/CartWidget';
 import './navbar.css';
 
 const NavBar = () => {
@@ -17,9 +18,8 @@ const NavBar = () => {
         <li>Opción 4</li>
       </ul>
       <div className="carro">
-        <TiShoppingCart />
-        <p>0</p>
-      </div>
+      <CartWidget compra={0}/>
+       </div>
     </div>
   );
 };
