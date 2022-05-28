@@ -5,7 +5,7 @@ const ItemListContainer = () => {
   return (
     <div className="App-header">
       <h4>Contenedor de productos </h4>
-      <ItemCount />
+      <ItemCount stock= {5}/>
     </div>
   );
 };
