@@ -5,12 +5,9 @@ import NavBar from './components/Navbar/NavBar';
 function App() {
   return (
     <div className="App">
-      <NavBar />
-      <header className="App-header">
-        <ItemListContainer />
-      </header>
+        <NavBar />
+      <ItemListContainer />
     </div>
   );
 }
-
 export default App;

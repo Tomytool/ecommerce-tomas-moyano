@@ -1,12 +1,13 @@
-import React from 'react'
+import React from 'react';
+import ItemCount from '../itemcount/ItemCount';
 
 const ItemListContainer = () => {
   return (
-    <div>
-        <h1>ItemListContainer</h1>
-        <h2>Contenedor de productos </h2>
+    <div className="App-header">
+      <h4>Contenedor de productos </h4>
+      <ItemCount />
     </div>
-  )
-}
+  );
+};
 
-export default ItemListContainer
+export default ItemListContainer;
