@@ -28,6 +28,7 @@ const Item = (props) => {
         </p>
         <AiOutlineRight onClick={addCounter} />
       </div>
+      <h5>{props.precio}</h5>
       <button>Agregar Carro</button>
     </div>
   );
